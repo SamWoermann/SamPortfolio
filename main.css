@@ -4,6 +4,13 @@
 
 html { scroll-behavior: smooth;}
 
+body{
+    margin: auto;
+}
+.main-body{
+    margin: auto;
+}
+
 .hero-image{
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/hero-image.jpg");
     background-position: center;
@@ -45,14 +52,23 @@ html { scroll-behavior: smooth;}
     border-radius: 6px;
 }
 
-.about-me{
+.main-body{
     text-align: center;
     align-items: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.about-me p{
+.main-body{
     margin: auto;
     width: clamp(30ch, 50%, 75ch);
+}
 
+.footer{
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    width: 100%;
+    margin: auto;
+    background-color: dimgray;
+    color: white;
+    text-align: center;
 }
