@@ -1,0 +1,58 @@
+.body, html{
+    height: 100%
+}
+
+html { scroll-behavior: smooth;}
+
+.hero-image{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/hero-image.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: clamp(5px, 15%, 500px);
+    margin-right: clamp(5px, 15%, 500px);
+    margin-bottom: 2%;
+    margin-top: 4%;
+    padding: 2%;
+    align-items: center;
+}
+
+.hero-section{
+    width: 90%;
+    padding: 5%;
+    text-align: center;
+    top: 50%;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.hero-links{
+    padding: 2%;
+    padding-left: 8%;
+    padding-right: 8%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 1%
+}
+
+.hero-links a{
+    color: black;
+    background-color: white;
+    text-decoration: none;
+    padding: 1%;
+    text-align: center;
+    display: block;
+    border-radius: 6px;
+}
+
+.about-me{
+    text-align: center;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.about-me p{
+    margin: auto;
+    width: clamp(30ch, 50%, 75ch);
+
+}
