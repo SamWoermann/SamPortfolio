@@ -7,9 +7,6 @@ html { scroll-behavior: smooth;}
 body{
     margin: auto;
 }
-.main-body{
-    margin: auto;
-}
 
 .hero-image{
     border-radius: 2%;
@@ -68,14 +65,19 @@ body{
 }
 
 .main-body{
+    margin: auto;
     text-align: center;
     align-items: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-.main-body{
     margin: auto;
     width: clamp(30ch, 50%, 75ch);
+}
+
+.main-body p{
+    font-size: large;
+}
+.main-body h2{
+    font-size: xx-large;
 }
 
 .footer{
