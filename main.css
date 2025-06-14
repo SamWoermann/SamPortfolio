@@ -80,6 +80,10 @@ body{
     font-size: xx-large;
 }
 
+.main-body h3{
+    font-size: larger;
+}
+
 .footer{
     padding-top: 0.5%;
     padding-bottom: 0.5%;
