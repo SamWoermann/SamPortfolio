@@ -98,3 +98,8 @@ iframe {
     aspect-ratio: 16 / 9;
     width: 100% !important;
 }
+
+.container {
+    display: flex;
+    justify-content: center;
+}
