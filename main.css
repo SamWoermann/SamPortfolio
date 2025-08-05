@@ -93,3 +93,8 @@ body{
     color: white;
     text-align: center;
 }
+
+iframe {
+    aspect-ratio: 16 / 9;
+    width: 100% !important;
+}
