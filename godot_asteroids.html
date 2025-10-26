@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Godot Asteroid Field Generator - Sam Woermann</title>
+    <link rel="icon" href="images/sam_logo.png">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="description" content="Sam Woermann, a Computer Science and Game Development student at the University of Canterbury.">
+    <meta name="author" content="Sam Woermann">
+    <meta property="og:title" content="Godot Asteroid Fields - Sam Woermann - A portfolio" />
+    <meta property="og:image" content="https://sam.woermann.dev/images/sw_icon.png" />
+    <meta content="Sam Woermann, a Computer Science and Game Development student at the University of Canterbury." property="og:description">
+    <meta content="https://sam.woermann.dev/" property="og:url">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class = "hero-image">
+    <div class = "hero-section">
+    <img src="images/sw_icon.png">
+    <h1>Sam Woermann</h1>
+    <p>Computer Science and Game Development student at the University of Canterbury</p>
+    <div class = "hero-links"><a href="index.html#about-me">About</a><a href="index.html#skills">Skills</a><a href="index.html#projects">Projects</a><a href="index.html#contact">Contact</a></div>
+    </div></div>
+    <div class = "main-body">
+    <div class = "about-me" id="about-me">
+        <p>I made a procedural asteroid field generator in Godot 4.5!<br> But, how did I accomplish this?</p>
+        <div class="container"><img src="images/asteroidfield1.png" width="100%"></div> An asteroid field!
+
+        <h2>Step 1 - The asteroids</h2>
+        <p>The first thing I did was following a <a href="https://youtu.be/hHRhDEVwDho?si=CTlZaPoxkpW7A3CU"><b>tutorial</b></a> by <a href="https://www.youtube.com/@Ombarus">Ombarus</a> to make a procedural planet generator in Godot.</p>
+        <p>It was pretty cool, I was able to generate planets with a bunch of different parameters to play with. I quickly realised that I could also generate asteroids quite easily!</p>
+        <div class="container"><img src="images/planetgen1.png" width="100%"></div> One of the first planets I procedurally generated after I managed to get it working
+        <h2>Step 2 - The asteroid field</h2>
+        <p>I created an imaginary 3D grid, of which each position in the grid could be a potential asteroid location.</p>
+        <p>To determine where asteroids would be placed, I used a value noise generator built-in to Godot. Each position in the 3D grid that was above a certain threshold then generated a unique, random asteroid that adhered to a pre-determined range of parameters.</p>
+    </div>
+    </p>
+</div>
+    <footer class = "footer">
+        <p>© Sam Woermann 2025<br> All rights reserved</p>
+    </footer>
+
+</body>
+</html>
